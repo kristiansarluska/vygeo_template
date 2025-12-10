@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Moja mapa</title>
+    <title>Moja mapka</title>
     <link rel="icon" type="image/x-icon" href="logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -21,9 +21,11 @@
 
     <!-- Position the map and title with Cascading Style Sheet (CSS) -->
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
       body {
         margin: 0;
         padding: 0;
+        font-family: "Roboto Mono", monospace;
       }
       #map {
         position: absolute;
@@ -40,7 +42,7 @@
         background: white;
         border: 2px solid rgba(0, 0, 0, 0.2);
         padding: 6px 8px;
-        font-family: Helvetica;
+        /*font-family: Helvetica;*/
         font-weight: bold;
         font-size: 24px;
         z-index: 800;
@@ -49,7 +51,7 @@
   </head>
   <body>
     <!-- Display the map and title with HTML division tags  -->
-    <div id="map-title">Moja mapka</div>
+    <div id="map-title">Dlhší text v názve mojej krásnej mapky</div>
     <div id="map"></div>
 
     <!-- Create the interactive map content with JavaScript (.js) -->
